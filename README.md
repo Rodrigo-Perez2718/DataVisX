@@ -27,6 +27,8 @@ Es importante mencionar que en otros editores, como Google Colab, este método d
 
 Para utilizar el paquete de DataVisX, es necesario realizar la instalación previa del mismo. Una vez instalado, se pueden importar los diferentes módulos disponibles para utilizar las funcionalidades relacionadas con la interfaz gráfica, clustering y regresión.
 
+Aclarar que la libreria DataVisX no preprocesa los datos por si misma, sino que el usuario tendrá que entregar datos ya limpios y de dimensiones coherentes para el procesamiento que se quiera hacer
+
 ## Interfaz Gráfica:
 Para utilizar la interfaz gráfica, es necesario importar el módulo model_graf desde el paquete datavis.Graficinterface. Además, se importa el módulo QApplication de PyQt5 para crear la aplicación gráfica.
 from datavis.Graficinterface import model_graf as mg
