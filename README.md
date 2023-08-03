@@ -27,7 +27,7 @@ Es importante mencionar que en otros editores, como Google Colab, este método d
 
 Para utilizar el paquete de DataVisX, es necesario realizar la instalación previa del mismo. Una vez instalado, se pueden importar los diferentes módulos disponibles para utilizar las funcionalidades relacionadas con la interfaz gráfica, clustering y regresión.
 
-Interfaz Gráfica:
+## Interfaz Gráfica:
 Para utilizar la interfaz gráfica, es necesario importar el módulo model_graf desde el paquete datavis.Graficinterface. Además, se importa el módulo QApplication de PyQt5 para crear la aplicación gráfica.
 from datavis.Graficinterface import model_graf as mg
 import sys
@@ -41,13 +41,13 @@ if __name__ == "__main__":
 
 En este código, se crea una instancia de QApplication para inicializar la aplicación gráfica. Luego, se crea una instancia de MainWindow desde el módulo model_graf y se muestra la ventana. Finalmente, se inicia el bucle de la aplicación utilizando app.exec_().
 
-Clustering:
+## Clustering:
 Para utilizar las funcionalidades de clustering, es necesario importar el módulo model_cluster desde el paquete datavis.Clustering.
 from datavis.Clustering import model_cluster as mc
 
 Este módulo proporciona la clase Astrodata, que permite realizar agrupaciones espaciales utilizando el algoritmo DBSCAN y K-means. Para más detalles sobre el uso de esta clase y sus métodos, se puede usar help(mc) o revisar los comentarios del código fuente en el módulo model_cluster.
 
-Regresión:
+# Regresión:
 Para utilizar las funcionalidades de regresión lineal y logística, se debe importar el módulo model_reg desde el paquete datavis.Regresion.
 
 from datavis.Regresion import model_reg as mr
